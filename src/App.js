@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './Components/Header';
+import FrontPage from './Components/FrontPage/FrontPage';
 
 function App() {
   return (
     <div>
-      <Header />
+      <FrontPage />
     </div>
   );
 }
