@@ -3,7 +3,13 @@ import style from './Front.module.css';
 import useWebAnimations, {rotateInDownLeft} from "@wellyshen/use-web-animations";
 
 function FrontPage() {
-    const { ref } = useWebAnimations({...rotateInDownLeft});
+    const { ref } = useWebAnimations(
+        {...rotateInDownLeft}, {
+        timing : {
+            delay: 1000,
+            duration: 2000,
+            iterations: Infinity,
+          }});
 
     return (
         <div className={style.homePage}>
