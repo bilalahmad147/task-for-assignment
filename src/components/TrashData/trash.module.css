@@ -1,7 +1,14 @@
-.mainData {
-    display:flex;
+.mainData button{
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+    border: none;
+    margin: 0px;
+    padding: 0px;
 }
 .mainData ul{
+    display: flex;
     list-style: none;
-    text-align: left;
+}
+.mainData li{
+    padding: 10px;
 }

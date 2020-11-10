@@ -7,18 +7,16 @@ function TrashData() {
         <div>
             <h1>this is trash data</h1>
             {
-                emailData.map((ind, key) => {
+                emailData.map((obj, ind) => {
                     return (
                         <div key={ind.id} className={style.mainData}>
-                            <ul>
-                                <li>{ind.name}</li>
-                            </ul>
-                            <ul>
-                                <li>{ind.subject}</li>
-                            </ul>
-                            <ul>
-                                <li>{ind.message}</li>
-                            </ul>
+                            <button>
+                                <ul>
+                                    <li>{obj.name}</li>
+                                    <li>{obj.subject}</li>
+                                    <li>{obj.time}</li>
+                                </ul>
+                            </button>
                         </div>
                     )
                 })
