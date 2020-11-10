@@ -1,0 +1,7 @@
+.mainData {
+    display:flex;
+}
+.mainData ul{
+    list-style: none;
+    text-align: left;
+}

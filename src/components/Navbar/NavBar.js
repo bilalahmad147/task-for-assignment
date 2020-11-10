@@ -150,9 +150,7 @@ function ResponsiveDrawer(props) {
             </nav>
             <main className={classes.content}>
                 <div className={classes.toolbar} />
-                <Typography paragraph>
                     {drawOpen}
-                </Typography>
             </main>
         </div>
     );
